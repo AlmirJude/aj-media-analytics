@@ -1,12 +1,12 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="DTC Marketing Analysis",
+    page_title="Performance Analysis",
     page_icon="📊",
     layout="wide"
 )
 
-st.title("📊 DTC Fitness Supplements — Marketing Performance Analysis")
+st.title("Performance Analysis")
 st.markdown("---")
 
 st.markdown("""
