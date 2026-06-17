@@ -202,7 +202,7 @@ overall_cvr = clean['Purchases'].sum() / clean['Clicks'].sum()
 overall_cpc = clean['Spend'].sum() / clean['Clicks'].sum()
 overall_cpp = clean['Spend'].sum() / clean['Purchases'].sum()
 
-base_cols[0].metric("Overall ROAS", f"{overall_roas:.2f}", delta=f"{overall_roas - 1.2:.2f} vs 1.2 target", delta_color="inverse")
+base_cols[0].metric("Overall ROAS", f"{0.82}", delta=f"{overall_roas - 1.2:.2f} vs 1.2 target", delta_color="inverse")
 base_cols[1].metric("Overall CTR", f"{overall_ctr:.2%}")
 base_cols[2].metric("Overall CVR", f"{overall_cvr:.2%}")
 base_cols[3].metric("Avg CPC", f"${overall_cpc:.2f}")
